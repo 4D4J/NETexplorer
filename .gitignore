@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages (restored automatically)
+*.nupkg
+*.snupkg
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Publish profiles
+**/Properties/PublishProfiles/
+
+# Test results
+TestResults/
+
+# Filter files with potentially sensitive game paths
+input.txt
